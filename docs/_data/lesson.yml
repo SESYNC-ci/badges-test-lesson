@@ -1,0 +1,9 @@
+title: "Badges test"       # the lesson's title
+tag: v0.1         # current handout release version
+lesson: 99      # the number of the lesson (for /instructor view)
+lifecycle: alpha-pink   # status-color for lifecycle badge
+instructor: Mel Brooks  # the name of the instructor (for /instructor view)
+authors:         # a list of those writing the lesson
+ - Kelly Hondula
+sorter:          # a ordered list of slides (file names without extension)
+ - intro           # contained in the top-level "slides" folder
