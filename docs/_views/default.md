@@ -12,6 +12,14 @@ permalink: /index.html
 {:style="text-transform: none;"}
 {% endif %}
 
+{% if site.data.lesson.lifecyle == "alpha-pink" %}
+> Note: This lesson is in alpha status! It is experimental or in a very early phase of development. 
+{% endif %}
+
+{% if site.data.lesson.lifecyle == "beta-blue" %}
+> Note: This lesson is in beta status! It may have open issues that have not yet been addressed.
+{% endif %}
+
 {% if site.data.lesson.handouts %}
 > Handouts for this lesson need to be saved on your computer.
 > [Download]({{ site.github.releases_url}}/download/{{ site.data.lesson.tag }}/handouts.zip)
