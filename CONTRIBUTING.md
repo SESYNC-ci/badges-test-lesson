@@ -234,30 +234,29 @@ file tree of the zip's contents.
 
 ## Lesson Lifecycle
 
-Lesson status should be categorized as Alpha, Beta, Stable, or Archived according to 
-the [lifecycle definitions]. Add or move the lesson repository to the appropriate category
-on the [curriculum] project page. Add the appropriate badge and notes to the lesson readme:
+Lesson status should be categorized as alpha, beta, stable, or archived according to 
+the [lifecycle definitions]. Assign these categories in 3 places: lesson repository
+`docs/_data/lesson.yml` variables, copy badge from below to top of lesson `readme.md`, 
+and add or move the lesson repository to the appropriate category on the [curriculum] 
+project page.
 
-**Alpha** 
+Lesson view will include the badge according to variables in `_data/lesson.yml`. For alpha
+and beta lessons, indicate warning: true to include a note on the rendered lesson about
+potential issues. For beta and stable lessons, ensure lesson is linked from cyberhelp 
+lessons page by adding a file in `lesson/_posts/`. For archived lessons, turn off 
+github pages in `-lesson` repository settings and add to instructor notes (in 
+lesson `readme.md`) "This lesson is archived" and either "and was replaced 
+with the following lesson: ...", "Active lessons covering similar material
+include: ... ", or similar
 
-* `[![lifecycle](https://img.shields.io/badge/lifecycle-alpha-pink.svg)](https://github.com/SESYNC-ci/sesync-ci.github.io/blob/master/lesson/lesson-lifecycle.md#alpha)`
-* Add to top of lesson: *Note: This lesson is in alpha status! It is experimental or in a very early phase of develoment.*
+**Alpha**  `[![lifecycle](https://img.shields.io/badge/lifecycle-alpha-pink.svg)](https://github.com/SESYNC-ci/sesync-ci.github.io/blob/master/lesson/lesson-lifecycle.md#alpha)`
 
-**Beta**
+**Beta** `[![lifecycle](https://img.shields.io/badge/lifecycle-beta-blue.svg)](https://github.com/SESYNC-ci/sesync-ci.github.io/blob/master/lesson/lesson-lifecycle.md#beta)`
 
-* `[![lifecycle](https://img.shields.io/badge/lifecycle-beta-blue.svg)](https://github.com/SESYNC-ci/sesync-ci.github.io/blob/master/lesson/lesson-lifecycle.md#beta)`
-* Add to top of lesson: *Note: This lesson is in beta status! It may have open issues that have not yet been addressed.*
+**Stable** `[![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://github.com/SESYNC-ci/sesync-ci.github.io/blob/master/lesson/lesson-lifecycle.md#stable)`
 
-**Stable**
+**Archived** `[![lifecycle](https://img.shields.io/badge/lifecycle-archived-lightgrey.svg)](https://github.com/SESYNC-ci/sesync-ci.github.io/blob/master/lesson/lesson-lifecycle.md#archived)`
 
-* `[![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://github.com/SESYNC-ci/sesync-ci.github.io/blob/master/lesson/lesson-lifecycle.md#stable)`
-* Ensure lesson is linked from cyberhelp lessons page. Add a file in `lesson/_posts/` to link to active version of lesson from cyberhelp lesson page with appropriate tags, sticky to pin, permalink with lesson slug name
-
-**Archived**
-
-* `[![lifecycle](https://img.shields.io/badge/lifecycle-archived-lightgrey.svg)](https://github.com/SESYNC-ci/sesync-ci.github.io/blob/master/lesson/lesson-lifecycle.md#archived)`
-* Turn off github pages in `-lesson` repository settings. 
-* Add to instructor notes (in lesson `readme.md`): "This lesson is archived" and if relevant either "and was replaced with the following lesson: ...", "Active lessons covering similar material include: ... ", or similar
 
 ## Working Upstream
 
