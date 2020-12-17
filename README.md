@@ -1,4 +1,4 @@
-[![lifecycle](https://img.shields.io/badge/lifecycle-{{ site.data.lesson.lifecycle }}.svg)](https://github.com/SESYNC-ci/sesync-ci.github.io/blob/master/lesson/lesson-lifecycle.md)
+[![lifecycle](https://img.shields.io/badge/lifecycle-beta-blue.svg)](https://github.com/SESYNC-ci/sesync-ci.github.io/blob/master/lesson/lesson-lifecycle.md)
 
 ## Badges Test lesson
 
