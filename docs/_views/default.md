@@ -13,7 +13,7 @@ permalink: /index.html
 {% endif %}
 
 {% if site.data.lesson.warning %}
-Note: This lesson is in [{{site.data.lesson.lifecycle}}](https://github.com/SESYNC-ci/sesync-ci.github.io/blob/master/lesson/lesson-lifecycle.md) status! It may have issues that have not been addressed.
+> *Note*: This lesson is in [{{site.data.lesson.lifecycle}}](https://github.com/SESYNC-ci/sesync-ci.github.io/blob/master/lesson/lesson-lifecycle.md) status! It may have issues that have not been addressed.
 {% endif %}
 
 {% if site.data.lesson.handouts %}
