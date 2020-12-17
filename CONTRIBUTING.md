@@ -151,9 +151,9 @@ handouts:        # a list of handouts, e.g. worksheets and data
  - ...
 tag: ...         # current handout release version
 lesson: ...      # the number of the lesson (for /instructor view)
-lifecycle: alpha # status for lifecycle badge
-badgecolor: pink # color for lifecycle badge (pink, blue, green, gray)
-warning: true    # true/false whether to include note about lifecycle status
+lifecycle: alpha # status for lifecycle badge 
+badgecolor: pink # color for lifecycle badge
+warning: true    # whether to include note about lifecycle status
 instructor: ...  # the name of the instructor (for /instructor view)
 authors:         # a list of those writing the lesson
  - ...
@@ -161,6 +161,14 @@ sorter:          # an ordered list of slides (file names without extension)
  - ...           # contained in the top-level "slides" folder
 ```
 
+Use the following guide for lifecycle variables:
+
+| lifecycle | badgecolor | warning | 
+|-----------|------------|---------|
+| alpha     | pink       | true    |
+| beta      | blue       | true    |
+| stable    | green      | false   |
+| archived  | gray       | true    |
 
 Files within the "slides" folder become a vertical stack of slides in a
 [Reveal.js] presentation. Stacks are concatenated horizontally in the order
