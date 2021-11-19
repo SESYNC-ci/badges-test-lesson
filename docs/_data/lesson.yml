@@ -6,6 +6,7 @@ lesson: 99      # the number of the lesson (for /instructor view)
 lifecycle: alpha   # status for lifecycle badge
 badgecolor: pink  # color for lifecycle badge (pink, blue, green, gray)
 warning: true # add note about lifecycle status to top of lesson
+doi:10.5281/zenodo.0000001
 instructor: Mel Brooks  # the name of the instructor (for /instructor view)
 authors:         # a list of those writing the lesson
  - Kelly Hondula
